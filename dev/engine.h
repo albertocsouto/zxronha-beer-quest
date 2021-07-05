@@ -352,7 +352,7 @@ void pause_screen (void) {
 void die (void) {
 	saca_a_todo_el_mundo_de_aqui ();
 	print_str (10, 11, 03, spacer);
-	print_str (10, 12, 03, "  HAS MUERTO! ");
+	print_str (10, 12, 03, "  YOU DIED ");
 	print_str (10, 13, 03, spacer);
 	sp_UpdateNow ();
 
